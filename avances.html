@@ -22,11 +22,18 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <a href="#" class="navbar-brand"
-            >Laboratorio de Experiencias Urbanas</a
-          >
+      <nav class="navbar navbar-expand-lg navbar-primary bg-primary fixed-top">
+        <div class="container d-flex align-items-center">
+          <!-- Imagen del logo -->
+          <a href="#" class="me-2">
+            <img src="img/logo.jpg" alt="Logo" style="height: 40px" />
+          </a>
+
+          <!-- Título del navbar -->
+          <a href="#" class="navbar-brand text-light">
+            Laboratorio de Experiencias Urbanas
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -41,13 +48,13 @@
           <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link text-light">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Avances</a>
+                <a href="#" class="nav-link text-light">Avances</a>
               </li>
               <li class="nav-item">
-                <a href="proyecto.html" class="nav-link">Proyecto</a>
+                <a href="proyecto.html" class="nav-link text-light">Proyecto</a>
               </li>
             </ul>
           </div>
@@ -55,60 +62,156 @@
       </nav>
     </header>
 
-    <main class="container">
-      <div class="row my-3">
-        <section class="col-12 col-md-6 mb-3 mb-md-0">
+    <main class="container my-4">
+      <!-- Fila 1: Tarjeta 1 -->
+      <div class="row g-3 mb-3">
+        <section class="col-12">
           <article class="card">
             <div class="card-body">
-              <h4 class="card-title">Texto introductorio</h4>
-              <ol>
-                <li>Actividad principal de la organización.</li>
-                <li>Objetivos del sitio web.</li>
-                <li>Concepto general y estrategias de atracción.</li>
+              <h3 class="card-title text-center m-3">
+                Actividad principal de la organización
+              </h3>
+              <p>
+                LEU promueve la participación juvenil en arte y tecnología a
+                través de talleres, eventos y encuentros comunitarios que
+                combinan creatividad, innovación y transformación social.
+              </p>
+
+              <h3 class="card-title text-center mb-3">
+                Objetivos del sitio web
+              </h3>
+              <ul>
                 <li>
-                  Análisis del público objetivo (edad, intereses, hábitos,
-                  etc.).
+                  Potenciar la visibilidad de la propuesta cultural y social del
+                  centro.
                 </li>
-              </ol>
-            </div>
-          </article>
-        </section>
-        <section class="col-12 col-md-6">
-          <article class="card">
-            <div class="card-body">
-              <h4 class="card-title">Identidad visual inicial</h4>
-              <ol>
-                <li>Paleta de colores, tipografía, íconos, estilo gráfico.</li>
-                <li>Logo (aunque sea en versión preliminar).</li>
-              </ol>
+                <li>
+                  Facilitar el acceso a las actividades, talleres y eventos.
+                </li>
+                <li>
+                  Promover la compra sencilla y segura de entradas e
+                  inscripciones.
+                </li>
+                <li>Ofrecer un espacio digital accesible e inclusivo.</li>
+                <li>
+                  Crear una experiencia de navegación interactiva que refleje la
+                  identidad visual y conceptual del centro.
+                </li>
+              </ul>
+
+              <h3 class="card-title text-center m-3">
+                Concepto general y estrategias de atracción
+              </h3>
+              <p>
+                El sitio web se construye bajo el concepto de un laboratorio
+                urbano en constante movimiento, combinando diseño dinámico,
+                estética vibrante y navegación fluida. Se utilizan estrategias
+                visuales y funcionales que apelan al interés de un público
+                joven:
+              </p>
+              <ul>
+                <li>
+                  Estilo visual moderno (neón, tipografías display, íconos
+                  animados).
+                </li>
+                <li>
+                  Contenido multimedia (videos, sliders, galerías interactivas).
+                </li>
+                <li>Calendario interactivo con filtros temáticos.</li>
+                <li>
+                  Accesos rápidos a funciones clave: agenda, talleres, tickets.
+                </li>
+                <li>
+                  Inclusión de promociones, eventos especiales y experiencias
+                  participativas.
+                </li>
+              </ul>
+
+              <h3 class="card-title text-center m-3">
+                Análisis del público objetivo
+              </h3>
+              <ul>
+                <li><strong>Edad:</strong> Jóvenes de 16 a 30 años.</li>
+                <li>
+                  <strong>Intereses:</strong> Arte, música urbana, cultura
+                  digital, activismo, diseño, tecnología, espacios alternativos.
+                </li>
+                <li>
+                  <strong>Hábitos:</strong> Uso intensivo de redes sociales,
+                  consumo audiovisual, participación cultural, búsqueda de
+                  experiencias únicas, afinidad colaborativa.
+                </li>
+                <li>
+                  <strong>Necesidades digitales:</strong> Navegación móvil,
+                  acceso rápido, usabilidad, estética visual, lenguaje cercano.
+                </li>
+              </ul>
             </div>
           </article>
         </section>
       </div>
-      <div class="row">
-        <section class="col-12 col-md-6 mb-3 mb-md-0">
+
+      <!-- Fila 2: Tarjeta 3 -->
+      <div class="row g-3 mb-3">
+        <section class="col-12">
           <article class="card">
             <div class="card-body">
-              <h4 class="card-title">Mapa del sitio</h4>
-              <ul>
-                <li>
-                  Diagrama o esquema visual con las secciones y funcionalidades
-                  previstas.
-                </li>
-              </ul>
+              <h3 class="card-title text-center">Mapa del sitio</h3>
+              <div style="overflow-x: auto">
+                <img
+                  src="img/mapadelsitio.jpg"
+                  alt="Mapa del sitio"
+                  style="width: 1000px; max-width: 100%"
+                />
+              </div>
             </div>
           </article>
         </section>
-        <section class="col-12 col-md-6 mb-3 mb-md-0">
+      </div>
+
+      <!-- Fila 3: Tarjeta 2 y Tarjeta 4 -->
+      <div class="row g-3">
+        <section class="col-12 col-md-6">
           <article class="card">
             <div class="card-body">
-              <h4 class="card-title">Prototipo</h4>
-              <ul>
-                <li>
-                  Wireframes de las páginas principales. Enlace al prototipo
-                  (Figma, Penpot u otra herramienta).
-                </li>
-              </ul>
+              <h3 class="card-title text-center m-3">Tipografía</h3>
+              <p class="text-center">
+                Bootstrap utiliza por defecto "Helvetica Neue", Helvetica,
+                Arial, y sans-serif como su fuente base del sistema.
+              </p>
+              <h3 class="card-title text-center m-3">Paleta de colores</h3>
+              <div style="overflow-x: auto; text-align: center">
+                <img
+                  src="img/paletadecolores.jpg"
+                  alt="Mapa del sitio"
+                  style="width: 30%; display: block; margin: 0 auto"
+                />
+              </div>
+              <h3 class="card-title text-center m-3">Logo</h3>
+              <div style="overflow-x: auto; text-align: center">
+                <img
+                  src="img/logo.jpg"
+                  alt="Mapa del sitio"
+                  style="width: 30%; display: block; margin: 0 auto"
+                />
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="col-12 col-md-6">
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Prototipo</h3>
+              <p class="text-center">
+                Wireframes de las páginas principales:
+                <a
+                  href="https://ejemplo.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver prototipos</a
+                >
+              </p>
             </div>
           </article>
         </section>
@@ -151,3 +254,4 @@
     </script>
   </body>
 </html>
+
