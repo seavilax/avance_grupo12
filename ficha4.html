@@ -17,28 +17,29 @@
       main {
         transition: padding 0.3s ease-in-out;
       }
-
-      header nav{
+      header nav {
         background-color: #013f76;
       }
-
-      .fichas{
+      .cards_color {
         background-color: #e9691a;
       }
     </style>
-    
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container d-flex align-items-center">
+          <!-- Imagen del logo -->
           <a href="#" class="me-2">
-            <img src="img/logoTrabajoGrupal.jpg" alt="Logo" style="height: 40px" />
+            <img src="img/logo.jpg" alt="Logo" style="height: 40px" />
           </a>
-          <a href="#" class="navbar-brand text-light"
-            >Laboratorio de Experiencias Urbanas</a
-          >
+
+          <!-- Título del navbar -->
+          <a href="#" class="navbar-brand text-light">
+            Laboratorio de Experiencias Urbanas
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -70,11 +71,11 @@
     <main class="container">
       <div class="row my-5">
         <div class="col">
-          <div class="card fichas">
+          <div class="card">
             <div class="card-header">
-              <h4 class="text-center text-light">Ficha Personal</h4>
+              <h4 class="text-center">Ficha Personal</h4>
             </div>
-            <div class="card-body">
+            <div class="card-body cards_color">
               <div class="row d-flex align-items-stretch">
                 <!-- Columna de la imagen -->
                 <div class="col-md-4 mb-3 mb-md-0">
@@ -109,16 +110,26 @@
                       <li>
                         <p>
                           <strong
-                            >Enlace a sitio del portafolio individual:</strong  
-                          > <a href="https://julgallo1.github.io/PrimerParcial-GalloJulian/"> portafolio individual</a>
+                            >Enlace a sitio del portafolio individual:</strong
+                          >
+                          <a
+                            href="https://julgallo1.github.io/PrimerParcial-GalloJulian/"
+                            target="_blank"
+                            style="color: white"
+                            >Portafolio individual</a
+                          >
                         </p>
                       </li>
                       <li>
-                        <p><strong>Rol asumido: Programador </strong></p>
+                        <p><strong>Rol asumido:</strong> Programador</p>
                       </li>
                       <li>
-                        <p><strong>Tareas realizadas: </strong> Encargado de la programación de la pagina, realizando los cambios necesarios 
-                        y ajustando dependiendo de las medidas tomadas por el grupo.</p>
+                        <p>
+                          <strong>Tareas realizadas:</strong> Encargado de la
+                          programación de la pagina, realizando los cambios
+                          necesarios y ajustando dependiendo de las medidas
+                          tomadas por el grupo.
+                        </p>
                       </li>
                     </ul>
                   </div>
